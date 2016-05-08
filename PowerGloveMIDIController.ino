@@ -1,12 +1,12 @@
 /*
- * Power Glove UHID - Teensy Sketch
+ * Power Glove UHID - MIDI controller
  *
- * The basic Arduino example.  Turns on an LED on for one second,
- * then off for one second, and so on...  We use pin 13 because,
- * depending on your Arduino board, it has either a built-in LED
- * or a built-in resistor so that you need only an LED.
+ * A modification of the "PGSensorHub" firmware to use the
+ * Power Glove as a MIDI controller. The flex sensors, motion
+ * control data and control pad buttons can be used to send
+ * any type of MIDI message.
  *
- * http://www.arduino.cc/en/Tutorial/Blink
+ * https://github.com/nullhan/PowerGloveMIDIController
  */
 
 #include <Keypad.h>

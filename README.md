@@ -1,6 +1,6 @@
 # PowerGloveMIDIController
 
-This Arduino sketch is designed to be used with my Power Glove UHID hardware to use the Power Glove as a MIDI device. The firmware is designed to work with the Teensy 3 series, and the upload type must be set to USB MIDI. The Keypad library by Person and the standard EEPROM library are required.
+This Arduino sketch is designed to be used with my Power Glove UHID hardware to use the Power Glove as a MIDI device. The firmware is designed to work with the Teensy 3 series, and the upload type must be set to USB MIDI. The [Keypad library by Christopher Andrews](https://github.com/Chris--A/Keypad "Keypas library") and the standard EEPROM library are required.
 
 ## Controls
 As the code currently stands, the glove's four flex sensors and buttons on the control pad are used to send control changes and note commands.
